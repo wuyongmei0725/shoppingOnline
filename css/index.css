@@ -1,0 +1,123 @@
+.mian{
+    height: 455px;
+    width: 980px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus{
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: brown;
+    float: left;
+}
+.newflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.focus img{
+    width: 720px;
+    height: 455px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.arrow-l,
+.arrow-r{
+    position: absolute;
+    width: 24px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'iconfont';
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: -20px;
+    top: 50%;
+}
+.arrow-l{
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
+.circle{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 128px;
+    height: 10px;
+    margin-left: -64px;
+}
+.circle li{
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+    float: left;
+    cursor: pointer;
+}
+.current{
+    background-color: #fff;
+}
+.new{
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.lifeserver{
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.bargin{
+    height: 76px;
+    margin-top: 5px;
+    background-color: brown;
+}
+.news-hd{
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 32px;
+    padding-left: 1em;
+}
+.news-hd a{
+    float: right;
+    margin-right: 7px;
+}
+.news-bd a{
+    font-size: 12px;
+    padding-left: 1em;
+    line-height: 26px;
+}
+.lifeserver li{
+    float: left;
+    width: 61px;
+    height: 69px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeserver li a{
+    display: inline-block;
+    overflow: hidden;
+    width: 61px;
+    height: 69px;
+}
+.lifeserver li.noRight{
+    border-right: none;
+}
+.lifeserver li.noBottom{
+    border-bottom: none;
+}
+.service_ico{
+    display: block;
+    height: 24px;
+    margin: 10px auto;
+    line-height: 24px;
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+}
+.lifeserver p{
+    text-align: center;
+    font-size: 14px;
+}

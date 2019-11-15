@@ -1,0 +1,221 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.style-red{
+    color: #c81623;
+}
+.shortcut{
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+    font-size: 14px;
+}
+.shortcut li{
+    float: left;
+}
+.spacer{
+    width: 1px;
+    height: 12px;
+    background-color: black;
+    margin: 0 12px;
+    margin-top: 9px;
+}
+
+.header{
+    position: relative;
+    height: 105px;
+}
+.logo{
+    position: absolute;
+    width: 175px;
+    height: 56px;
+    top: 25px;
+}
+.logo a{
+    display: block;
+    width: 175px;
+    height: 56px;
+    background-color: #c81623;
+    /* overflow: hidden;
+    text-indent: -999px; */
+    font-size: 0;
+}
+.search{
+    position: absolute;
+    left: 348px;
+    top: 25px;
+}
+.text{
+    float: left;
+    width: 455px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    text-indent: 1em;
+}
+.btn{
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+.hotwords{
+    position: absolute;
+    left: 348px;
+    top: 65px;
+}
+.hotwords a{
+    font-size: 12px;
+    margin: 0 10px;
+}
+.shopcar{
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 148px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+}
+.count{
+    position: absolute;
+    top: -6px;
+    left: 100px;
+    background-color: #e60012;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    color: #fff;
+    border-radius: 7px 7px 7px 0;
+}
+
+.nav{
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.dropdown{
+    width: 209px;
+    height: 45px;
+    font-size: 14px;
+}
+.dropdown .dt{
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.dropdown .dd{
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+.dropdown .dd li{
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.dropdown .dd li a{
+    color: #fff;
+}
+.dropdown .dd li i{
+    float: right;
+    color: #fff;
+    font-size: 18px;
+}
+.dropdown .dd li:hover{
+    background-color: #fff;
+}
+.dropdown .dd li:hover a{
+    color: #b1191a
+}
+.navitems{
+    margin-left: 10px;
+}
+.navitems li{
+    float: left;
+}
+.navitems li a{
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.footer{
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    color: #666;
+}
+.mod_server{
+    height: 75px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_server li{
+    float: left;
+    width: 240px;
+    height: 75px;
+}
+.mod_server_1{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #b1191a;
+    margin-left: 35px;
+}
+.mod_server_title{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.mod_server_title h5{
+    margin-bottom: 5px 0;
+    color: black;   
+}
+.mod_help{
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_help_item{
+    width: 150px;
+    padding: 20px 0 0 50px;
+    float: left;
+}
+.mod_help_item dt{
+    height: 25px;
+    font-size: 16px;
+}
+.mod_help_item dd{
+    height: 22px;
+}
+.mod_help_item dd.img{
+    height: 80px;
+    width: 80px;
+    background-color: #b1191a;
+}
+.mod_copyright{
+    text-align: center;
+    font-size: 14px;
+}
+.mod_copyright_links{
+    margin: 20px 0 15px 0;
+}
